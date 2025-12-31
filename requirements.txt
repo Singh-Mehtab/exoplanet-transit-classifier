@@ -1,0 +1,7 @@
+pandas
+lightkurve
+numpy
+matplotlib
+scikit-learn
+tqdm
+seaborn
