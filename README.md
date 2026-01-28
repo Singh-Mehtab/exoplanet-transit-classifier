@@ -31,6 +31,8 @@ The result was a model with 81.35% accuracy. The classification report and confu
 
 Classification Report:
 
+<div align="center">
+    
 | Class | Precision | Recall | F1-Score | Support |
 | :--- | :---: | :---: | :---: | :---: |
 | **False Positive** | 0.91 | 0.75 | 0.82 | 316 |
@@ -40,6 +42,8 @@ Classification Report:
 | **Macro Avg** | 0.82 | 0.82 | 0.81 | 547 |
 | **Weighted Avg** | 0.83 | 0.81 | 0.81 | 547 |
 
+</div>
+    
 The model achieves a recall of 0.90 for the planets class, indicating that it successfully identifies 90% of confirmed exoplanets. However, this comes at the expense of a lower precision, meaning some false positives are misclassified as planets. Further analysis of the model's performance can be done by examining its ROC curve.
 
 <p align="center">
